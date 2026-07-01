@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Google Play Store -->
+    <item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="app_store" />
+
+    <!-- Spotify -->
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="apple_music" />
+
+    <!-- Google Calendar -->
+    <item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="calendar_alt_01" />
+
+    <!-- Camera (AOSP generic) -->
+    <item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="camera_alt_06" />
+
+    <!-- Google Clock -->
+    <item component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}" drawable="clock" />
+
+    <!-- Gmail -->
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="email" />
+
+    <!-- Phone / Dialer (AOSP generic) -->
+    <item component="ComponentInfo{com.android.dialer/com.android.dialer.DialtactsActivity}" drawable="ex_dialer" />
+
+    <!-- Google Messages -->
+    <item component="ComponentInfo{com.google.android.apps.messaging/com.google.android.apps.messaging.ui.ConversationListActivity}" drawable="messages" />
+
+    <!-- Files by Google -->
+    <item component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}" drawable="my_files" />
+
+    <!-- Google Keep -->
+    <item component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}" drawable="notes" />
+
+    <!-- Google Photos -->
+    <item component="ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.home.HomeActivity}" drawable="photos_a_plus" />
+
+    <!-- Settings (AOSP generic) -->
+    <item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings" />
+</resources>
