@@ -44,7 +44,7 @@
            android:clipToOutline="true"
            android:scaleType="centerCrop"
            android:contentDescription="@string/app_name" />
-    
+
         <TextView
             android:id="@+id/app_name_text"
             android:layout_width="wrap_content"
@@ -54,8 +54,10 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#000000" />
-            
-            <TextView
+
+    </LinearLayout>
+
+    <TextView
         android:id="@+id/icons_label"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -105,7 +107,5 @@
         app:layout_constraintTop_toBottomOf="@id/launcher_support_text"
         app:layout_constraintStart_toStartOf="@id/guide_left"
         app:layout_constraintEnd_toEndOf="@id/guide_right" />
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
