@@ -1,4 +1,4 @@
-package com.ios.iconpacks;
+package com.ipack.exe;
 
 import android.app.Activity;
 import android.os.Bundle;
