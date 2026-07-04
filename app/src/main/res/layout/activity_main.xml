@@ -36,12 +36,15 @@
         app:layout_constraintEnd_toEndOf="@id/guide_right">
 
         <ImageView
-            android:id="@+id/app_icon_image"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:src="@drawable/app_icon"
-            android:contentDescription="@string/app_name" />
-
+           android:id="@+id/app_icon_image"
+           android:layout_width="60dp"
+           android:layout_height="60dp"
+           android:src="@drawable/app_icon"
+           android:background="@drawable/circle_mask"
+           android:clipToOutline="true"
+           android:scaleType="centerCrop"
+           android:contentDescription="@string/app_name" />
+    
         <TextView
             android:id="@+id/app_name_text"
             android:layout_width="wrap_content"
@@ -51,6 +54,57 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#000000" />
+            
+            <TextView
+        android:id="@+id/icons_label"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Icons"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/top_card"
+        app:layout_constraintStart_toStartOf="@id/guide_left" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/icons_recycler"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/icons_label"
+        app:layout_constraintStart_toStartOf="@id/guide_left"
+        app:layout_constraintEnd_toEndOf="@id/guide_right" />
+
+    <ToggleButton
+        android:id="@+id/apply_toggle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textOn="Icon Pack Applied"
+        android:textOff="Apply Icon Pack"
+        app:layout_constraintTop_toBottomOf="@id/icons_recycler"
+        app:layout_constraintStart_toStartOf="@id/guide_left"
+        app:layout_constraintEnd_toEndOf="@id/guide_right" />
+
+    <TextView
+        android:id="@+id/launcher_support_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#666666"
+        app:layout_constraintTop_toBottomOf="@id/apply_toggle"
+        app:layout_constraintStart_toStartOf="@id/guide_left" />
+
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="About"
+        app:layout_constraintTop_toBottomOf="@id/launcher_support_text"
+        app:layout_constraintStart_toStartOf="@id/guide_left"
+        app:layout_constraintEnd_toEndOf="@id/guide_right" />
 
     </LinearLayout>
 
