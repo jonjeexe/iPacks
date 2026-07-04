@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ios.iconpacks'
+    namespace 'com.ipack.exe'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.ios.iconpacks"
+        applicationId "com.ipack.exe"
         minSdk 21
         targetSdk 34
         versionCode 1
